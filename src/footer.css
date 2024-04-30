@@ -1,0 +1,300 @@
+.happy {
+  align-items: center;
+  text-align: center;
+  margin-top: 110px;
+  font-weight: 200;
+  justify-content: center;
+}
+.happy h1{
+  align-items: center;
+  text-align: center;
+  font-weight: 200;
+  border-bottom: 1px solid rgb(137, 137, 137); /* Adjust the thickness and color as needed */
+  padding-bottom: 10px; /* Adjust the spacing between text and the bar */
+  margin-bottom: 20px; /* Adjust the spacing between the bar and other content */
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -20px;
+  border-bottom: 1px solid rgb(137, 137, 137); /* Adjust the thickness and color as needed */
+
+  margin-bottom: 10px; /* Adjust the spacing between the bar and other content */
+}
+
+.logo-section,
+.follow-section,
+.payment-section {
+  justify-content: center;
+  display: flex;
+  margin: 0 20px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px; /* Adjust the spacing between icons */
+  margin-left: 9px;
+  margin-top: 10px;
+}
+.social-icons a{
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.social-icons a:hover {
+  transform: scale(1.2); /* Zoom in effect on hover */
+}
+
+.social-icons .svg-inline--fa {
+  font-size: 1.8rem; /* Adjust the icon size */
+}
+.logo-img {
+  width: 230px; /* Set the desired width for the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 50px;
+}
+.payment-icons{
+  display: flex;
+  gap: 10px; /* Adjust the spacing between icons */
+  margin-left: 9px;
+  margin-top: 15px;
+}
+.payment-icons img {
+  width: 45px; /* Adjust image width */
+  height: 20px; /* Maintain aspect ratio */
+}
+
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px; /* Add padding for spacing */
+  border-bottom: 1px solid rgb(137, 137, 137); /* Adjust the thickness and color as needed */
+
+  margin-bottom: 10px;
+ 
+}
+.footer-links :hover{
+  color: #ffac46;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(111, 110, 110);
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+
+.footer-links span {
+  margin-right: 10px; /* Add margin between elements */
+}
+
+.copyright-section {
+  text-align: center;
+ 
+}
+.copyright-section p{
+  font-size: 16px;
+  color: rgb(69, 69, 69);
+}
+.copyright-section span{
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  .happy {
+    align-items: center;
+    text-align: center;
+
+    font-weight: 200;
+    justify-content: center;
+  }
+  .happy h1{
+    align-items: center;
+    text-align: center;
+    font-weight: 200;
+    border-bottom: 1px solid rgb(137, 137, 137); /* Adjust the thickness and color as needed */
+    padding-bottom: 10px; /* Adjust the spacing between text and the bar */
+    margin-bottom: 20px; /* Adjust the spacing between the bar and other content */
+   
+  }  
+  .logo-container {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-section {
+      margin-bottom: 0;
+      align-items: center;
+      justify-content: center;
+      
+    }
+
+    .logo-section  img{
+      margin: 0 10px 10px;
+      width: 70%;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .follow-section{
+      flex-direction: column;
+      flex-grow: 1;
+      margin: 0 10px;
+    }
+    .follow-section p{
+      font-size: 20px;
+    }
+    .social-icons{
+      margin: 0 10px;
+    }
+    .payment-section{
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      margin: 0 10px;
+    
+     
+    }
+    .payment-section p{
+       font-size: 20px !important;
+    }
+    .payment-icons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3px;
+    }
+    .payment-icons img{
+      margin: 0 10px 10px;
+      width: 16% !important;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+      
+    }
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  .happy h1 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .footer-links {
+    font-size: 10px; /* Adjust font size for smaller screens */
+  }
+
+  .footer-links span {
+    margin-right: 5px; /* Reduce margin between elements */
+  }
+
+  .social-icons .svg-inline--fa {
+    font-size: 1.5rem; /* Adjust icon size for smaller screens */
+  }
+
+  .payment-icons img {
+    width: 25px; /* Adjust image width for smaller screens */
+    height: 12px; /* Adjust image height for smaller screens */
+  }
+
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .happy {
+    align-items: center;
+    text-align: center;
+    font-weight: 200;
+    justify-content: center;
+  }
+  .happy h1{
+    align-items: center;
+    text-align: center;
+    font-weight: 200;
+    border-bottom: 1px solid rgb(137, 137, 137); /* Adjust the thickness and color as needed */
+    padding-bottom: 10px; /* Adjust the spacing between text and the bar */
+    margin-bottom: 20px; /* Adjust the spacing between the bar and other content */
+    font-size: 30px;
+  }
+
+  .logo-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-section {
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .logo-section  img{
+    margin: 0 10px 10px;
+    width: 70%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .follow-section{
+      flex-direction: column;
+      flex-grow: 1;
+      margin: 0 10px;
+    }
+    .follow-section p{
+      font-size: 20px;
+    }
+    .social-icons{
+      margin: 0 10px;
+    }
+    .payment-section{
+      flex-direction: column;
+      flex-grow: 1;
+      margin: 0 10px;
+     
+    }
+    .payment-section p{
+       font-size: 20px;
+    }
+    .payment-icons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .payment-icons img{
+      margin: 0 10px 10px;
+      width: 8%;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+    }
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}

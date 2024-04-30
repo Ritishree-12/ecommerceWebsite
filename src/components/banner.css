@@ -1,0 +1,118 @@
+.firstsec {
+  background-image: url("../image/home.png"); /* Path to your background image */
+  background-size: contain;
+  
+  background-repeat: no-repeat;
+  height: 500px; /* Adjust the height as needed */
+  margin: 0; 
+  margin-bottom: -90px;   
+}
+
+.firstsec h1{
+  text-align: left;
+  color: #ffac46;
+  margin: 0; 
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  padding-left: 5%;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.firstsec h2{
+  text-align: left;
+  color: #ffac46; 
+  font-size: 40px;
+  padding-left: 5%;
+  margin-top: 2px;
+  font-family: "Poppins", sans-serif;
+}
+
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .firstsec {
+      background-size: cover; /* Change background size for small screens */
+      height: 200px; /* Increase height for small screens */
+      margin: 20px; 
+      background-position: center;
+      border-radius: 20px;
+    }
+    .firstsec h1{
+      text-align: left;
+      color: #ffac46;
+      margin: 0; 
+      justify-content: center;
+      align-items: center;
+      padding-top: 10%;
+      padding-left: 5%;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+    
+  }
+  .firstsec h2{
+    text-align: left;
+    color: #ffac46;
+    margin: 0; 
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+  
+  }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .firstsec {
+      background-size: cover; /* Change background size for small screens */
+      height: 150px; /* Increase height for small screens */
+      margin: 20px; 
+      background-position: center;
+      border-radius: 20px;
+    }
+    .banner-text {
+      left: 35%;
+    }
+  
+    .banner-text h2 {
+      font-size: 1.2rem;
+    }
+  }
+  
+
+  @media screen and (min-width: 769px) and (max-width: 1200px) {
+    .firstsec {
+      background-size: cover; /* Change background size for small screens */
+      height: 400px; /* Increase height for small screens */
+      margin: 20px; 
+      background-position: center;
+      border-radius: 20px;
+    }
+    .firstsec h1{
+      text-align: left;
+      color: #ffac46;
+      margin: 0; 
+      justify-content: center;
+      align-items: center;
+      padding-top: 10%;
+      padding-left: 5%;
+      font-size: 35px;
+      font-family: "Poppins", sans-serif;
+    
+  }
+  .firstsec h2{
+    text-align: left;
+    color: #ffac46;
+    margin: 0; 
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+  
+  }
+
+}

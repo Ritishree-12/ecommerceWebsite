@@ -1,0 +1,236 @@
+.contact{
+    background-color: rgb(255, 251, 251);
+}
+.support {
+    display: flex;
+    margin-right: 30px;
+    margin-left: 20px;
+    
+    
+  }
+  
+  .left-box {
+    flex: 70%;
+    background-color: white; /* Example background color */
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .left-box h1{
+   font-size: 25px;
+   font-weight: 300;
+   margin-left: 20px;
+   color: rgb(41, 41, 41);
+   font-family: Poppins, sans-serif;
+    font-style: normal;
+    line-height: 30px;
+  } 
+  .left-box h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: #ffac46;
+    line-height: 24px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    margin-top: -5px;
+   } 
+   .left-box p{
+    font-size: 16px;
+    color: rgb(33, 37, 41);
+    margin-left: 20px;
+    margin-right: 28px;
+    line-height: 1.5rem;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    margin-top: -5px;
+    font-weight: 400;
+   }
+
+   .button-container {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    margin-right: 45px;
+    display: inline-block;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .whatsapp {
+    background-color: #25D366; /* WhatsApp green color */
+    color: #fff; /* White text color */
+  }
+  
+  .call-us {
+    background-color: #ff9212; /* Yellow color for "Call Us" button */
+    color: #fff; /* Black text color */
+  }
+  .headofc h4{
+    margin-left: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+  }
+  .headofc p{
+    margin-top: -16px;
+    font-size: 15px;
+    font-family:  Poppins, sans-serif;
+  }
+  .customersupport{
+    margin-top: -8px;
+  }
+  .customersupport h4{
+    margin-left: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+  }
+  .customersupport p{
+    margin-top: -16px;
+    font-size: 15px;
+    font-family:  Poppins, sans-serif;
+  }
+  .mail p{
+    font-size: 16px;
+    font-family:  Poppins, sans-serif;
+    margin-bottom: 60px;
+  }
+  .right-box {
+    flex: 30%;
+    background-color: white; /* Example background color */
+    padding: 10px;
+    margin-left: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .right-box h2{
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    line-height: normal;
+    font-weight: 400;
+    color:  rgb(33, 37, 41);
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container textarea {
+  width: 100%;
+  height: 50px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+  
+ 
+
+.form-container textarea {
+    resize: vertical; /* Allow vertical resizing */
+    height: 130px;
+  }
+  
+ .query {
+    background-color: #18a33a; /* Blue color */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+ .query:hover {
+    background-color: #0fc23c; /* Darker blue color on hover */
+  }
+
+
+
+
+  @media screen and (max-width: 768px) {
+    .support {
+      flex-direction: column;
+      margin-right: 0;
+      margin-left: 0;
+    }
+  
+    .left-box,
+    .right-box {
+      flex: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .right-box {
+      margin-top: 20px; /* Adjust margin top for smaller screens */
+    }
+  
+    .button-container {
+      margin-left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .left-box h1 {
+      font-size: 20px; /* Decrease font size for smaller screens */
+    }
+  
+    .left-box h3 {
+      font-size: 18px; /* Decrease font size for smaller screens */
+    }
+  
+    .left-box p,
+    .headofc p,
+    .customersupport p,
+    .mail p {
+      font-size: 14px; /* Decrease font size for smaller screens */
+    }
+  
+    .right-box h2 {
+      font-size: 22px; /* Decrease font size for smaller screens */
+    }
+  
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container input[type="tel"],
+    .form-container textarea {
+      height: 40px; /* Decrease input height for smaller screens */
+      font-size: 14px; /* Decrease font size for smaller screens */
+    }
+  
+    .form-container textarea {
+      height: 100px; /* Decrease textarea height for smaller screens */
+    }
+  
+    .query {
+      font-size: 16px; /* Decrease font size for smaller screens */
+    }
+  }
+  
+  
